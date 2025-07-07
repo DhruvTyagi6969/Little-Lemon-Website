@@ -1,0 +1,130 @@
+/* General Page Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-width: 250px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation */
+nav {
+    background-color: #2c3e50;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-menu li {
+    margin: 0 25px;
+}
+
+.nav-menu a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f7e463;
+    color: #2c3e50;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+/* Featured Dishes */
+.three-columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.three-columns article {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.three-columns article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.three-columns img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.three-columns h2 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.three-columns p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.small-logo {
+    max-width: 100px;
+}
